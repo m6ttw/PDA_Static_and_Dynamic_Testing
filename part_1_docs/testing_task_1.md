@@ -22,6 +22,8 @@ class CardGame:
       return True
     else
       return False
+# should be double equals '=='
+# else should have a colon after it
    
 
   dif highest_card(self, card1 card2):
@@ -29,15 +31,17 @@ class CardGame:
     return card
   else:
     return card2
-
-
+# 'def' is spelled wrong
+# missing comma after parameter 'card1'
+# everything after the first line should be indented once further to the right
+# the first return should be 'card1' rather than just 'card'
   
-
 
 def cards_total(self, cards):
   total
   for card in cards:
     total += card.value
     return "You have a total of" + total
-  
+# should be indented once further right except the last 'return' line
+# need to set variable 'total' initially equal to 0
 ```
